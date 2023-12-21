@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="App">
-      <Confetti/>
+      <Confetti numberOfPieces={500}/>
       <ConfettiExplosion duration={3000} particleCount={200} width={1600} force={0.8} colors={['#FFC700','#FF0000','#2E3191','#41BBC7']} height={'200vh'}/>
       <style>
         {`
